@@ -1,0 +1,65 @@
+.App {
+   margin: 4vh;
+}
+
+.App-logo {
+  border-radius: 100%;
+  width: 40vh;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+
+.container {
+  width: 50vh;
+  float: left;
+}
+
+.Table {
+  margin-left: 8vh;
+  width: 110vh;
+  float: left;
+}
+
+img:not(.App-logo){
+  width: 6vh;
+  margin: 1vh;
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  margin-left: 0.5vh;
+}
+
+.form-control {
+  width: 40vh;
+}
+
+.edit-modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.3);
+  padding: 16vh;
+}
+
+.edit-modal {
+  background-color: #fff;
+  border-radius: 5;
+  max-width: 46vh;
+  min-height: 40vh;
+  margin: 0 auto;
+  padding: 3vh;
+  position: relative;
+}
+
+.edit-modal-footer {
+  position: absolute;
+  bottom: 2vh;
+  margin-bottom: 1vh;
+  margin-left: 10vh;
+}
